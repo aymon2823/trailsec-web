@@ -13,6 +13,6 @@ Test your cyber knowledge in a fun, dirt bike-themed challenge!
 
 ### 📦 Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/trailsec-web.git
+git clone https://github.com/aymon2823/trailsec-web.git
 cd trailsec-web
 # Open index.html in your browser (or use Live Server in VS Code)
