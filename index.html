@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrailSec 🏍️ Cyber Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏍️ TrailSec Cyber Quiz 🛡️</h1>
+    <div id="quiz-box">
+      <h2 id="question">Loading...</h2>
+      <div id="choices"></div>
+      <p id="feedback"></p>
+      <button id="next-btn">Next Question</button>
+    </div>
+    <div id="result" style="display: none;">
+      <h2>🏆 Game Over!</h2>
+      <p id="final-score"></p>
+      <button onclick="location.reload()">Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
