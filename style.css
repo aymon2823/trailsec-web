@@ -34,3 +34,39 @@ button:hover {
   margin: 0.5rem auto;
   width: 80%;
 }
+/* === TrailSec Animations === */
+h1 {
+  animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% { transform: translateY(-50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+button {
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.correct {
+  background-color: #4caf50 !important;
+  animation: flashCorrect 0.5s;
+}
+
+@keyframes flashCorrect {
+  0%, 100% { background-color: #4caf50; }
+  50% { background-color: #81c784; }
+}
+
+#score-container {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
